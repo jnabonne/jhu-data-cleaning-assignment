@@ -34,7 +34,7 @@ It also could be arguable that names could be even more explicit or more grammat
 **The merge of X_train and X_test data** is done after completing them with users information and activity from `subject_test.txt` and both `y_train.txt` and `y_test.txt`.
 
 At last, **the final tidy data set is obtained** by _"averaging each variable for each activity and each subject"_...  
-As this sentence is everthing but straitforward (at least for the author of this document ;) and after reading numerous comments on the course forum, it has been decided to apply the following approach: aggregating by activity and subject then applying the mean.  
+As this sentence is everthing but straitforward (at least for the author of this document ;) and after reading numerous comments on the course forum, it has been decided to apply the following approach: aggregating by activity and subject then applying the mean (resulting in 6 activity x 30 subjects : 180 observations).  
 _(it would probably make more sense to aggregate first by subject then activity but I prefer to stick to the instructions)_
 
 After executing `run_analysis.R` script, **you can view the resulting tidy data set** with the following command:  
