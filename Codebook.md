@@ -12,12 +12,10 @@ More info on [the Coursera assignement page](https://www.coursera.org/learn/data
 
 ---
 ## Context and initial Project Description
-
 The original experiments has been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope to captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually (http://www.youtube.com/watch?v=XOEN9W05_4A)
 
 ---
-## Tidy Data Set Contents
-
+## Tidy Data Set Structure
 The Tidy Data Set resulting from the execution of `run_analysis.R` contains 68 fields.
 
 The first 2 are identifiers for the `activity` performed and the `subject_id`.  
@@ -102,6 +100,10 @@ Below is the list of all 66 measures:
 **Notes:**
 * features are normalized and bounded within [-1,1]
 * Units are in radian/second for time measures, in hertz for frequency measures
+
+---
+## Tidy Data Set Content
+The data set contents 180 observations (6 activities x 30 subjects) of the 66 variables (means of each average and standard deviation) from the original UCI HAR dataset.
 
 ---
 ### Credits for original data set
