@@ -39,7 +39,7 @@ _(it would probably make more sense to aggregate first by subject then activity 
 
 After executing `run_analysis.R` script, **you can view the resulting tidy data set** with the following command:  
 
-    tds <- read.table("tidydataset.txt")
+    tds <- read.table("tidydataset.txt", header=TRUE)
     View(tds)
 
 **Do not forget to check the codebook (`Codebook.md`) for further information about the tidy data set content!**
