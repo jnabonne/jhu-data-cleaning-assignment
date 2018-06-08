@@ -103,7 +103,8 @@ Below is the list of all 66 measures:
 
 ---
 ## Tidy Data Set Content
-The data set contents 180 observations (6 activities x 30 subjects) of the 66 variables (means of each average and standard deviation) from the original UCI HAR dataset.
+The data set contents 180 observations (6 activities x 30 subjects) of the 66 variables (means of each average and standard deviation) from the original UCI HAR dataset.  
+The first line of the file consists of the header with the variables names.
 
 ---
 ### Credits for original data set
